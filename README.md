@@ -45,4 +45,10 @@ which can make the data difficult to manage if the structure is complex or if ce
 This can lead to runtime errors or require extra checks for key existence.
 
 Add a screenshot of the output of the unit tests
+car_park
 ![Unit tests](images/unit-tests.png)
+display
+![Unit tests](images/unit-tests-display1.png)
+![Unit tests](images/unit-tests-display2.png)
+sensor
+

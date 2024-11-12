@@ -20,11 +20,17 @@ class Sensor(ABC):
 
 
 class EntrySensor(Sensor):
+    def __init__(self, id, is_active, car_park):
+        super().__init__(id, is_active, car_park)
+
     def update_car_park(self, plate):
         self.car_park.add_car(plate)
         print(f"Incoming vehicle detected. Plate: {plate}")
 
 class ExistSensor(Sensor):
+
+    def __init__(self, id, is_active, car_park):
+        super().__init__(id, is_active, car_park)
     def update_car_park(self, plate):
         self.car_park.remove_car(plate)
         print(f"Outgoing vehicle detected. Plate: {plate}")
