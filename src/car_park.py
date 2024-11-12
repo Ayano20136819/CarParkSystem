@@ -1,7 +1,7 @@
 from sensor import Sensor
 from display import Display
 class CarPark:
-    def __init__(self, location, capacity, plates=None, sensors=None,
+    def __init__(self, capacity, location="Unknown", plates=None, sensors=None,
                  displays=None):
         self.location = location
         self.capacity = capacity
@@ -28,17 +28,18 @@ class CarPark:
 
     def remove_car(self, plate):
         self.plates.remove(plate)
-        self.update_display()
+        self.update_displays()
 
-    def update_displays(self, data):
-        for key, value in data.items():
-            print(f"{key}: {value}")
+    def update_displays(self):
+        for display in self.displays:
+            display.update()
 
     @property
     def avaiable_bays(self):
-        if self.plates > self.capacity:
+        if len(self.plates) > self.capacity:
             return 0
-        return self.capacity - len(self.plates)
+        else:
+            return self.capacity - len(self.plates)
 
 
 

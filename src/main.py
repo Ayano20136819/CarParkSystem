@@ -1,4 +1,4 @@
 from car_park import CarPark
 
-car01 = CarPark("123 Example Street", 100)
+car01 = CarPark(100,"123 Example Street", )
 print(car01)
