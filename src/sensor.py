@@ -7,3 +7,6 @@ class Sensor:
 
 class EntrySensor(Sensor):
     ...
+
+class ExistSensor(Sensor):
+    ...
