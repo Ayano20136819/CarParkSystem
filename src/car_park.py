@@ -22,6 +22,23 @@ class CarPark:
         elif isinstance(component, Display):
             self.displays.append(component)
 
+    def add_car(self, plate):
+        self.plates.append(plate)
+        self.update_displays()
+
+    def remove_car(self, plate):
+        self.plates.remove(plate)
+        self.update_display()
+
+    def update_displays(self, data):
+        for key, value in data.items():
+            print(f"{key}: {value}")
+
+    @property
+    def avaiable_bays(self):
+        if self.plates > self.capacity:
+            return 0
+        return self.capacity - len(self.plates)
 
 
 
