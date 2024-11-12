@@ -7,3 +7,5 @@ car park project
 | `CarPark`    |            |         |
 | `Sensor`     |            |         |
 | `Display`    |            |         |
+
+![Initial commit](images/mu_image.png)
