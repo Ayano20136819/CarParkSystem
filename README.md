@@ -43,3 +43,6 @@ Disadvantages:
 Lack of Structure: Dictionaries do not enforce any type or attribute constraints, 
 which can make the data difficult to manage if the structure is complex or if certain keys are missing. 
 This can lead to runtime errors or require extra checks for key existence.
+
+Add a screenshot of the output of the unit tests
+![Unit tests](images/unit-tests.png)
