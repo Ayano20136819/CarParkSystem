@@ -17,3 +17,12 @@ NEW-001 exited
 NEW-001 entered
 NEW-001 entered
 NEW-001 exited
+NEW-001 entered
+NEW-001 entered at 2024-11-15 16:07:15
+NEW-001 entered
+NEW-001 entered at 2024-11-15 16:07:18
+NEW-001 exited
+NEW-001 exited at 2024-11-15 16:07:18
+NEW-001 entered at 2024-11-15 16:08:39
+NEW-001 exited at 2024-11-15 16:08:39
+NEW-001 entered at 2024-11-15 16:08:42

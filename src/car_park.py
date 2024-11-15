@@ -30,18 +30,20 @@ class CarPark:
     def add_car(self, plate):
         self.plates.append(plate)
 
-        with open(self.log_file, 'a') as log_file:
-            log_file.write(f"{plate} entered\n")
+        #with open(self.log_file, 'a') as log_file:
+            #log_file.write(f"{plate} entered\n")
 
         self.update_displays()
+        self._log_car_activity(plate, "entered")
 
     def remove_car(self, plate):
         self.plates.remove(plate)
 
-        with open(self.log_file, 'a') as log_file:
-            log_file.write(f"{plate} exited\n")
+        #with open(self.log_file, 'a') as log_file:
+            #log_file.write(f"{plate} exited\n")
 
         self.update_displays()
+        self._log_car_activity(plate, "exited")
 
     def update_displays(self):
         for display in self.displays:
@@ -54,6 +56,9 @@ class CarPark:
         else:
             return self.capacity - len(self.plates)
 
+    def _log_car_activity(self, plate, action):
+        with self.log_file.open("a") as log_file:
+            log_file.write(f"{plate} {action} at {datetime.now():%Y-%m-%d %H:%M:%S}\n")
 
 
 
