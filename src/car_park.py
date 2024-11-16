@@ -79,6 +79,6 @@ class CarPark:
                        "log_file": str(self.log_file)}, f)
 
 if __name__ == '__main__':
-    car_park = CarPark(capacity="Unknown", location="Unknown" )
+    car_park = CarPark(capacity=100, location="Unknown" )
 
 

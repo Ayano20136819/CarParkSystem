@@ -4,7 +4,8 @@ from car_park import CarPark
 
 class TestDisplay(unittest.TestCase):
     def setUp(self):
-        self.display = Display(1, CarPark(...), "Welcome to the car park", True)
+        self.display = Display(1, message="Welcome to the car park", is_on=True,
+                               car_park=CarPark)
 
     def test_display_initialized_with_all_attributes(self):
         self.assertIsInstance(self.display, Display)
