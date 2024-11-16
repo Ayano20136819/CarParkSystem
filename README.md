@@ -1,6 +1,12 @@
 # CarParkSystem
 car park project
 
+| Class Name | Attributes                                                                         | Methods                                                                                                                                          |
+| ---------- |------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| `CarPark`    | location<br/>capacity<br/>plates<br/>sensors<br/>display<br/>log_file<br/>config_file | register()<br/>add_car()<br/>remove_car()<br/>update_displays()<br/>avaiable_bays()<br/>_log_car_activity()<br/>from_config()<br/>write_config() |
+| `Sensor`     | id<br/>is_active<br/>car_park                                                      | update_car_park()<br/>_scan_plate()<br/>detect_vehicle()                                                                                         |
+| `Display`    | id<br/>car_park<br/>message<br/>is_on                                              | update()                                                                                                                                         |
+
 ![Initial commit](images/mu_image.png)
 
 Ensure that you have completed the previous steps and created the appropriate tags. 
@@ -50,3 +56,8 @@ tag10
 
 output of the main.py file:
 ![Main.py output](images/main-py.png)
+
+Release your code on GitHub. 
+![Create a release](images/create-release.png)
+
+![Publish a release](images/publish-release.png)
