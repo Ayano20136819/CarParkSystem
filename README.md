@@ -49,6 +49,9 @@ car_park
 ![Unit tests](images/unit-tests.png)
 display
 ![Unit tests](images/unit-tests-display1.png)
-![Unit tests](images/unit-tests-display2.png)
 sensor
+![Unit tests](images/unit-tests-display2.png)
 
+
+tag10
+![Added methods to the car park class](images/methods-to-car-park.png)
