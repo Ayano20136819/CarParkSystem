@@ -21,5 +21,6 @@ class TestSensor(unittest.TestCase):
         self.sensor.detect_vehicle()
         self.assertEqual('FAKE-123', self.sensor.detect_vehicle())
 
+
 if __name__ == '__main__':
     unittest.main()
