@@ -1,12 +1,11 @@
 # CarParkSystem
 car park project
 
-
-| Class Name | Attributes | Methods |
-| ---------- | ---------- | ------- |
-| `CarPark`    |            |         |
-| `Sensor`     |            |         |
-| `Display`    |            |         |
+| Class Name | Attributes                                                                         | Methods                                                                                                                                          |
+| ---------- |------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| `CarPark`    | location<br/>capacity<br/>plates<br/>sensors<br/>display<br/>log_file<br/>config_file | register()<br/>add_car()<br/>remove_car()<br/>update_displays()<br/>avaiable_bays()<br/>_log_car_activity()<br/>from_config()<br/>write_config() |
+| `Sensor`     | id<br/>is_active<br/>car_park                                                      | update_car_park()<br/>_scan_plate()<br/>detect_vehicle()                                                                                         |
+| `Display`    | id<br/>car_park<br/>message<br/>is_on                                              | update()                                                                                                                                         |
 
 ![Initial commit](images/mu_image.png)
 
@@ -49,6 +48,16 @@ car_park
 ![Unit tests](images/unit-tests.png)
 display
 ![Unit tests](images/unit-tests-display1.png)
-![Unit tests](images/unit-tests-display2.png)
 sensor
+![Unit tests](images/unit-tests-display2.png)
 
+tag10
+![Added methods to the car park class](images/methods-to-car-park.png)
+
+output of the main.py file:
+![Main.py output](images/main-py.png)
+
+Release your code on GitHub. 
+![Create a release](images/create-release.png)
+
+![Publish a release](images/publish-release.png)
