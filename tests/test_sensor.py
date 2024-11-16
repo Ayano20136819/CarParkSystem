@@ -15,7 +15,7 @@ class TestSensor(unittest.TestCase):
 
     def test_detect_vehicle(self):
         car_park = CarPark(...)
-        sensor.plates = ['FAKE-123']
-        self.sensor.detect_vehicle()
+        self.sensor = sensor.EntrySensor(1, True, car_park=car_park)
+        self.sensor._scan_plate = lambda : 'FAKE-123'
         self.assertEqual(self.sensor.detect_vehicle(),'FAKE-123')
 
