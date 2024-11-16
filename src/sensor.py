@@ -18,6 +18,7 @@ class Sensor(ABC):
     def detect_vehicle(self):
         plate = self._scan_plate()
         self.update_car_park(plate)
+        return plate
 
 
 class EntrySensor(Sensor):
