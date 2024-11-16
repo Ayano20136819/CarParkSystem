@@ -1,6 +1,13 @@
 # CarParkSystem
 car park project
 
+
+| Class Name | Attributes | Methods |
+| ---------- | ---------- | ------- |
+| `CarPark`    |            |         |
+| `Sensor`     |            |         |
+| `Display`    |            |         |
+
 ![Initial commit](images/mu_image.png)
 
 Ensure that you have completed the previous steps and created the appropriate tags. 
@@ -45,7 +52,8 @@ display
 sensor
 ![Unit tests](images/unit-tests-display2.png)
 
+tag10
+![Added methods to the car park class](images/methods-to-car-park.png)
 
-
-output of the main.py file
+output of the main.py file:
 ![Main.py output](images/main-py.png)
