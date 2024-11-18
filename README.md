@@ -10,7 +10,7 @@ car park project
 ![Initial commit](images/mu_image.png)
 
 Ensure that you have completed the previous steps and created the appropriate tags. 
-![git tag](images/git tag.png)
+![git tag](images/git-tag.png)
 
 Q. Which class is responsible for the number of available bays (and why)?
     CarPark class
@@ -20,7 +20,7 @@ Q. Which class is responsible for the time (and why)?
     Display class
 
 Add a screenshot of the GitHub repository after pushing the tag, showing the CarPark class with the new methods:
-![methods of carpark](images/methods of carpark.png)
+![methods of carpark](images/methods-of-carpark.png)
 
 Review Questions
 
@@ -45,7 +45,7 @@ This can lead to runtime errors or require extra checks for key existence.
 
 Add a screenshot of the output of the unit tests
 car_park
-![Unit tests](images/unit-tests.png)
+![Unit tests](images/unit-tests_car_park.png)
 display
 ![Unit tests](images/unit-tests-display1.png)
 sensor
