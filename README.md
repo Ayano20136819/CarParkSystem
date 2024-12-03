@@ -45,11 +45,11 @@ This can lead to runtime errors or require extra checks for key existence.
 
 Add a screenshot of the output of the unit tests
 car_park
-![Unit tests](images/unit-tests_car_park.png)
+![Unit tests](images/unit-tests-car_park.png)
 display
-![Unit tests](images/unit-tests-display1.png)
+![Unit tests](images/unit-test_display.png)
 sensor
-![Unit tests](images/unit-tests-display2.png)
+![Unit tests](images/unit-test_sensor.png)
 
 tag10
 ![Added methods to the car park class](images/methods-to-car-park.png)
